@@ -15,7 +15,7 @@ build_dir=$1
 cache_dir="$2/$STACK"
 
 debug=$(readenv "$env_dir/exmagick-debug" false)
-gm_url=$(readenv "$env_dir/gm_url" ftp://ftp.icm.edu.pl/pub/unix/graphics/GraphicsMagick/1.3/GraphicsMagick-1.3.19.tar.bz2)
+gm_url=$(readenv "$env_dir/gm_url" ftp://ftp.icm.edu.pl/pub/unix/graphics/GraphicsMagick/1.3/GraphicsMagick-1.3.36.tar.bz2)
 rebuild=$(readenv "$env_dir/exmagick-rebuild" false)
 
 if [ "$debug" = true ]
